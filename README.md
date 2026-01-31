@@ -29,7 +29,7 @@ The API returns weather data in JSON format, which is then parsed and displayed 
 ```bash
 Weather-App-Tkinter/
 │
-|── pycache/            # Involuntary folder
+|── __pycache__/        # Involuntary folder
 ├── main.py             # Main application and GUI logic
 ├── fetchAPI.py         # API request and response handling
 ├── config.py           # API key and configuration
