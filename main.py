@@ -115,7 +115,7 @@ def fetch_weather():
         temp_val.config(text=f'{data["TEMPERATURE"]} °C')
         feels_val.config(text=f'{data["FEELS_LIKE"]} °C')
         humidity_val.config(text=f'{data["HUMIDITY"]} %')
-        wind_val.config(text=f'{data["WIND_SPEED"]} km/h')
+        wind_val.config(text=f'{data["WIND_SPEED"]} m/s')
 
         condition = data["WEATHER"].lower()
         if "cloud" in condition:
